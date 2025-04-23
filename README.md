@@ -6,8 +6,12 @@
 
 ## Getting Started
 
-To use MarkJS, include `<script src="https://cdn.jsdelivr.net/gh/cat-ci/markjs/compiler.js"></script>
-` and use a `<script type="text/markjs">` block in your HTML for scripts:
+To use MARK.js include:
+```
+<script src="https://cdn.jsdelivr.net/gh/cat-ci/markjs/compiler.js"></script>
+```
+
+To use it in your sites include `<script type="text/markjs">` and either internal or external scripts are allowed with .XML, .HTML, .MJS
 
 ```html
 <script type="text/markjs" data-mode="execute">
